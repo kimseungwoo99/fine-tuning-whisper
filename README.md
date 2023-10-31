@@ -17,7 +17,7 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71
 
 
 # 데이터셋 구축
-## Aihub에서 제공하는 어린이 방송 음성/맥락 데이터 셋 활용
+### Aihub에서 제공하는 어린이 방송 음성/맥락 데이터 셋 활용
 
 - 어린이 방송 음성/맥락 데이터 : 20,000건의 WAV와 JSON 형식으로 구성
 
@@ -32,13 +32,13 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71
 - 130건의 WAV와 JSON 파일을 활용
 
 
-## 데이터 전처리
+### 데이터 전처리
 - 데이터셋 준비.ipynb 에서 확인
 
 
-# Whisper 모델을 fine-tuning 하여 어린이 음성 인식에 특화된 whisper 개발
+## Whisper 모델을 fine-tuning 하여 어린이 음성 인식에 특화된 whisper 개발
 
-## 모델 선정 이유
+### 모델 선정 이유
 - Whisper는 특이한 액센트나 강한 배경 소음과 같은 어려운 환경에서 효과적으로 음성을 인식할 수 있는 능력을 갖추고 있음
 
 - 어린이 예능의 경우 배경 음악이 깔리는 경우가 많아 , Whipser 모델이 적합하다고 생각
@@ -46,10 +46,10 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71
 - 다국어를 지원하는 모델 ( 한글 지원 )
 
 
-# Fine-tuning
+## Fine-tuning
 - finetuning-whisper.ipynb 에서 확인
 
-## WER vs CER ( 평가 지표 )
+### WER vs CER ( 평가 지표 )
 - WER
 
 ＇하였습니다＇라는 한 단어는 ＇하＇, ＇였＇, ＇습니다＇라는 세 개의 형태소로 구성되어 있다. 
@@ -66,13 +66,17 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71
 따라서 정확한 문자 수(C)는 ＇습＇, ＇니＇, ＇다＇인 3개의 문자가 정확하게 대응됨
 
 
-## 평가 결과
+### 평가 결과
 
 ![image](https://github.com/kimseungwoo99/fine-tuning-whisper/assets/120182622/4f6e4f31-3e1c-4b46-a6a0-b27b922c618b)
 
-## 모델 사용 ( colab이 아닌 jupyter notebook에서 사용 )
 
-using-whisper
+### 모델 사용 ( colab이 아닌 jupyter notebook에서 사용 )
+
+using-whisper.ipynb 확인
 ![image](https://github.com/kimseungwoo99/fine-tuning-whisper/assets/120182622/0ee29933-dda7-4b76-b7d0-9e5f7b25f34c)
 
+#### 출처
+
+![image](https://github.com/kimseungwoo99/fine-tuning-whisper/assets/120182622/319d8af8-837e-4adc-83b8-04dcd87d586f)
 
