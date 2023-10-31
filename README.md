@@ -31,11 +31,20 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71
 
 - 130건의 WAV와 JSON 파일을 활용
 
+
 ## 데이터 전처리
 - 데이터셋 준비.ipynb 에서 확인
 
 
+# Whisper 모델
 
+## 모델 선정 이유
+- Whisper는 특이한 액센트나 강한 배경 소음과 같은 어려운 환경에서 효과적으로 음성을 인식할 수 있는 능력을 갖추고 있음
 
-# 어린이 음성 인식에 특화된 Whisper 모델 fine-tuning 진행
-##
+- 어린이 예능의 경우 배경 음악이 깔리는 경우가 많아 , Whipser 모델이 적합하다고 생각
+ 
+- 다국어를 지원하는 모델 ( 한글 지원 )
+
+## Whisper 모델을 fine-tuning 하여 어린이 음성 인식에 특화된 whisper 개발
+![image](https://github.com/kimseungwoo99/fine-tuning-whisper/assets/120182622/4f6e4f31-3e1c-4b46-a6a0-b27b922c618b)
+
