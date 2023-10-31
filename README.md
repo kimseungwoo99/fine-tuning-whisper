@@ -1,15 +1,20 @@
+# 졸업 논문 과제 수행
+
 # 사용 데이터
 AIhub에서 제공한 어린이 음성 데이터 셋
 
 https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71502
 
+
 # 필요성
 - 대부분의 음성 인식 모델은 어른 음성 데이터에 초점이 맞춰져 있고, 어린이들의 경우 어린이 예능을 시청할 때 자막이 없으면 내용 이해가 어려움
+
 
 # 기대효과
 - 어린이 대상 제품 및 서비스 개선
 - 다시 보기 자막 생성
 - 어린이 콘텐츠 이해도 향상
+
 
 # 발전 계획
 - 더욱 정확한 음성 인식이 되기 위해 사용하지 않은 어린이 음성 데이터 추가
@@ -88,5 +93,7 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71
 https://huggingface.co/blog/fine-tune-whisper#introduction
 
 https://huggingface.co/spaces/evaluate-metric/cer
+
+https://velog.io/@mino0121/NLP-OpenAI-Whisper-Fine-tuning-for-Korean-ASR-with-HuggingFace-Transformers
 
 
