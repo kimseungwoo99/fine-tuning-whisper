@@ -78,5 +78,14 @@ using-whisper.ipynb 확인
 
 #### 출처
 
-![image](https://github.com/kimseungwoo99/fine-tuning-whisper/assets/120182622/319d8af8-837e-4adc-83b8-04dcd87d586f)
+https://www.louisbouchard.ai/whisper/
+
+https://openai.com/research/whisper
+
+https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71502
+
+https://huggingface.co/blog/fine-tune-whisper#introduction
+
+https://huggingface.co/spaces/evaluate-metric/cer
+
 
