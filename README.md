@@ -1,1 +1,3 @@
-# AIhub에서 제공한 어린이 음성 데이터 셋을 통해 어린이 음성 인식에 특화된 Whisper 모델을 만들기 위해 fine-tuning
+# AIhub에서 제공한 어린이 음성 데이터 셋
+https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71502
+# 어린이 음성 인식에 특화된 Whisper 모델 fine-tuning 진행
